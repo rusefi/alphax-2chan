@@ -1,4 +1,6 @@
-# alphax-2chan
+# AlphaX 2 channel
+
+https://www.alphaxpr.com/
 
 24 pin / 2 channel ECU
 
