@@ -8,6 +8,9 @@ R105,
 # remove jumper resistor connecting BOOT1 with A22 input line, because we use STM32F4
 R131,
 
+# remove built-in V5A power source from the MCU module, and use an external source (TLS115)
+L101,
+
 # STM32
 U105,"STM32F407ZGT7","LQFP144","C1337111"
 
