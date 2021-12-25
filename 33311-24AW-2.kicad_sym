@@ -6,7 +6,7 @@
     (property "Value" "33311-24AW-2" (id 1) (at 3.81 20.32 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "hellen-one-common:33311-24AW-2" (id 2) (at -3.81 10.16 0)
+    (property "Footprint" "alphax-2ch:33311-24AW-2" (id 2) (at -3.81 10.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "DOCUMENTATION" (id 3) (at -3.81 -12.7 0)
