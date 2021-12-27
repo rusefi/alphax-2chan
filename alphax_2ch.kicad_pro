@@ -118,7 +118,7 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_over_copper": "warning",
+        "silk_over_copper": "ignore",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "through_hole_pad_without_hole": "error",
@@ -460,6 +460,8 @@
         "microvia_drill": 0.127,
         "name": "IN_CRANK",
         "nets": [
+          "/C2",
+          "/C3",
           "/IN_CRANK+",
           "/IN_CRANK-"
         ],
