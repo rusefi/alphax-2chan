@@ -20,4 +20,5 @@
   (lib (name "vr-discrete")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/vr-discrete/0.1/vr-discrete.kicad_sym")(options "")(descr "Hellen-One VR discrete Module"))
   (lib (name "33311-24AW-2")(type "KiCad")(uri "${KIPRJMOD}/33311-24AW-2.kicad_sym")(options "")(descr ""))
   (lib (name "WL9981TC")(type "KiCad")(uri "${KIPRJMOD}/WL9981TC.kicad_sym")(options "")(descr ""))
+  (lib (name "alphax_logo")(type "KiCad")(uri "${KIPRJMOD}/alphax_logo.kicad_sym")(options "")(descr ""))
 )
