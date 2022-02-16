@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 1.5,
-          "width": 1.325
+          "drill": 1.5,
+          "height": 2.3,
+          "width": 2.5
         },
         "silk_line_width": 0.25,
         "silk_text_italic": false,
@@ -61,32 +61,11 @@
         }
       ],
       "drc_exclusions": [
-        "clearance|155850000|159775000|ad95f2a1-a337-4099-b926-20daaba4ce96|51c738b4-e611-47f4-a7cd-9305df4eab8b",
-        "clearance|155900000|160125000|51c738b4-e611-47f4-a7cd-9305df4eab8b|ad95f2a1-a337-4099-b926-20daaba4ce96",
-        "clearance|157300000|158625000|57bc8027-f917-47c7-a3dd-64c3bddfcab3|19cd75f9-ed10-4640-ace3-5dc7767385c1",
-        "clearance|157300000|160125000|4eacf72c-53ad-4386-a06e-470382efc758|e8ffcdc6-612a-4594-b07c-31a57d484aa3",
-        "clearance|157350000|158975000|19cd75f9-ed10-4640-ace3-5dc7767385c1|57bc8027-f917-47c7-a3dd-64c3bddfcab3",
-        "clearance|157350000|159775000|e8ffcdc6-612a-4594-b07c-31a57d484aa3|4eacf72c-53ad-4386-a06e-470382efc758",
-        "clearance|83950000|142025000|0c1c7482-01e1-4988-9aac-c20f335d1d01|419ec9da-5ac4-4f76-95a9-b16491bfba03",
-        "clearance|83950000|142175000|419ec9da-5ac4-4f76-95a9-b16491bfba03|0c1c7482-01e1-4988-9aac-c20f335d1d01",
-        "clearance|84825000|141525000|b42d6152-3ad3-4d8d-8c1e-81619c921e6e|8c3d865f-93b7-44f6-b087-0ac0b797fd05",
-        "clearance|84975000|141525000|8c3d865f-93b7-44f6-b087-0ac0b797fd05|b42d6152-3ad3-4d8d-8c1e-81619c921e6e",
-        "copper_edge_clearance|106235310|70617490|6b417e9a-cef2-4218-ac1f-114c1c24df52|2bdf114c-49f2-4895-a278-853bbafcc6ef",
-        "copper_edge_clearance|106334258|63082333|062d1364-85b3-434b-a924-e9f6eece52de|7d83c33c-861b-4702-b0f4-476018e9d32b",
-        "copper_edge_clearance|106675000|63350000|0f7ae676-0785-4d95-b72d-ecdae2957a66|7d83c33c-861b-4702-b0f4-476018e9d32b",
-        "copper_edge_clearance|106675000|70650000|142abb75-965b-4e8c-ae56-70b1c5890df0|2bdf114c-49f2-4895-a278-853bbafcc6ef",
-        "copper_edge_clearance|106675000|70650000|8d845ebb-78fd-45d7-b34a-9ee5a1ec8233|2bdf114c-49f2-4895-a278-853bbafcc6ef",
-        "copper_edge_clearance|107975000|63350000|308b6c7b-a8ff-4ff5-a7b4-b24782331135|7d83c33c-861b-4702-b0f4-476018e9d32b",
-        "copper_edge_clearance|107998783|63796188|825c5b4d-e005-43f6-a352-366dcb180015|7d83c33c-861b-4702-b0f4-476018e9d32b",
-        "copper_edge_clearance|108110375|71068473|853244b8-9af2-49f2-b94d-37098bad925c|2bdf114c-49f2-4895-a278-853bbafcc6ef",
-        "copper_edge_clearance|160682333|56390742|062d1364-85b3-434b-a924-e9f6eece52de|7d83c33c-861b-4702-b0f4-476018e9d32b",
-        "copper_edge_clearance|160950000|54750000|308b6c7b-a8ff-4ff5-a7b4-b24782331135|7d83c33c-861b-4702-b0f4-476018e9d32b",
-        "copper_edge_clearance|160950000|56050000|0f7ae676-0785-4d95-b72d-ecdae2957a66|7d83c33c-861b-4702-b0f4-476018e9d32b",
-        "copper_edge_clearance|161396188|54726217|825c5b4d-e005-43f6-a352-366dcb180015|7d83c33c-861b-4702-b0f4-476018e9d32b",
-        "copper_edge_clearance|168217490|56489690|6b417e9a-cef2-4218-ac1f-114c1c24df52|2bdf114c-49f2-4895-a278-853bbafcc6ef",
-        "copper_edge_clearance|168250000|56050000|142abb75-965b-4e8c-ae56-70b1c5890df0|2bdf114c-49f2-4895-a278-853bbafcc6ef",
-        "copper_edge_clearance|168250000|56050000|8d845ebb-78fd-45d7-b34a-9ee5a1ec8233|2bdf114c-49f2-4895-a278-853bbafcc6ef",
-        "copper_edge_clearance|168668473|54614625|853244b8-9af2-49f2-b94d-37098bad925c|2bdf114c-49f2-4895-a278-853bbafcc6ef"
+        "courtyards_overlap|30299999|119630001|44b853a4-620e-45a2-9211-899f46761644|99cc7708-ea73-4d45-b9c0-127e10ae8f69",
+        "courtyards_overlap|30299999|122380001|44b853a4-620e-45a2-9211-899f46761644|9c84f79b-9e84-426d-abbc-aea8c7faadf8",
+        "courtyards_overlap|31299999|123419999|9c84f79b-9e84-426d-abbc-aea8c7faadf8|a0172379-1afc-40b2-85f2-09207f2a99ec",
+        "courtyards_overlap|33799999|119580001|8e62e53a-50cb-4606-a861-ac07ad9b29ee|a0172379-1afc-40b2-85f2-09207f2a99ec",
+        "courtyards_overlap|33799999|122480001|4e7f077b-b549-4a6c-88a8-b7e8876537d4|a0172379-1afc-40b2-85f2-09207f2a99ec"
       ],
       "meta": {
         "filename": "board_design_settings.json",

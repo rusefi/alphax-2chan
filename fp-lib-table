@@ -2,7 +2,7 @@
   (lib (name "rusefi_lib")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/rusefi_lib.pretty")(options "")(descr ""))
   (lib (name "hellen-one-input-0.1")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/input/0.1")(options "")(descr "Hellen-One Analog/Digital Inputs Module"))
   (lib (name "hellen-one-output-0.3")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/output/0.3")(options "")(descr "Hellen-One Outputs Module"))
-  (lib (name "hellen-one-mcu-0.5")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/mcu/0.5")(options "")(descr "Hellen One MCU Module"))
+  (lib (name "hellen-one-mcu-0.6")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/mcu/0.6")(options "")(descr "Hellen One MCU Module"))
   (lib (name "hellen-one-can-0.1")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/can/0.1")(options "")(descr "Hellen-One CAN Module"))
   (lib (name "hellen-one-lin-0.1")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/lin/0.1")(options "")(descr "Hellen-One K-LINE (LIN) Module"))
   (lib (name "hellen-one-sd-0.1")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/sd/0.1")(options "")(descr "Hellen-One microSD Card Module"))
