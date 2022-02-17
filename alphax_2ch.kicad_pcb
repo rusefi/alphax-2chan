@@ -5752,7 +5752,7 @@
   (footprint "hellen-one-common:R0603-4" (layer "F.Cu")
     (tedit 0) (tstamp bcc96ce2-c18c-4fd2-a1b8-107748e1ed7e)
     (at 58.928 158.496)
-    (property "LCSC" "C12004")
+    (property "LCSC" "C1980")
     (property "Sheetfile" "alphax_2ch.kicad_sch")
     (property "Sheetname" "")
     (path "/6ffe0868-6a80-4d86-a7a2-5e0176a6ed2e")
@@ -5760,7 +5760,7 @@
       (effects (font (size 0.8 0.8) (thickness 0.17)) (justify left bottom))
       (tstamp 74290cae-cd5b-415d-802f-e021905a5212)
     )
-    (fp_text value "20k" (at -3.841803 -0.190667 -90 unlocked) (layer "F.SilkS") hide
+    (fp_text value "4.7k" (at -3.841803 -0.190667 -90 unlocked) (layer "F.SilkS") hide
       (effects (font (size 0.8 0.8) (thickness 0.17)) (justify left bottom))
       (tstamp 8f3d2726-b39f-482d-888f-43d8200309de)
     )
@@ -5913,7 +5913,7 @@
   (footprint "hellen-one-common:R0603-4" (layer "F.Cu")
     (tedit 0) (tstamp c9e86fcb-67bb-42b8-879c-db941749ce5f)
     (at 41.044 129.45 90)
-    (property "LCSC" "C12004")
+    (property "LCSC" "C1980")
     (property "Sheetfile" "alphax_2ch.kicad_sch")
     (property "Sheetname" "")
     (path "/0fd537a2-7e7c-446e-b7d3-222c637edc62")
@@ -5921,7 +5921,7 @@
       (effects (font (size 0.8 0.8) (thickness 0.17)) (justify left bottom))
       (tstamp f2894aed-210e-42f6-ba27-8d72a0db89b4)
     )
-    (fp_text value "20k" (at -3.841803 -0.190667 unlocked) (layer "F.SilkS") hide
+    (fp_text value "4.7k" (at -3.841803 -0.190667 unlocked) (layer "F.SilkS") hide
       (effects (font (size 0.8 0.8) (thickness 0.17)) (justify left bottom))
       (tstamp fab822c1-fcb4-4f84-8f00-4b940c433cf2)
     )

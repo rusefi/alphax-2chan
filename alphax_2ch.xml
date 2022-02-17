@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>G:\rusefi\alphax_2ch\alphax_2ch.kicad_sch</source>
-    <date>16/02/2022 12:03:49</date>
+    <date>17/02/2022 09:45:28</date>
     <tool>Eeschema (6.0.1)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -658,7 +658,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="alphax_2ch.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>a6bf355d-1d5f-4e79-8e3f-45e3bddf3ceb a7d95f89-5755-415c-ab05-3cba0bcc1e6a 915d735b-9683-4d94-8b0d-1fa27ebac489 5f1c7f30-e456-4e5e-847b-c87579bb1a4c</tstamps>
+      <tstamps>a6bf355d-1d5f-4e79-8e3f-45e3bddf3ceb 915d735b-9683-4d94-8b0d-1fa27ebac489 a7d95f89-5755-415c-ab05-3cba0bcc1e6a 5f1c7f30-e456-4e5e-847b-c87579bb1a4c</tstamps>
     </comp>
     <comp ref="M7">
       <value>Module-can-0.1</value>
@@ -1286,26 +1286,26 @@
       <tstamps>f9ac4f9a-2d86-435e-b7cb-38895941ce94</tstamps>
     </comp>
     <comp ref="R27">
-      <value>20k</value>
+      <value>4.7k</value>
       <footprint>hellen-one-common:R0603-4</footprint>
       <fields>
-        <field name="LCSC">C12004</field>
+        <field name="LCSC">C1980</field>
       </fields>
       <libsource lib="hellen-one-common" part="Res_Array_4" description="Resistor"/>
-      <property name="LCSC" value="C12004"/>
+      <property name="LCSC" value="C1980"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="alphax_2ch.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>0fd537a2-7e7c-446e-b7d3-222c637edc62</tstamps>
     </comp>
     <comp ref="R28">
-      <value>20k</value>
+      <value>4.7k</value>
       <footprint>hellen-one-common:R0603-4</footprint>
       <fields>
-        <field name="LCSC">C12004</field>
+        <field name="LCSC">C1980</field>
       </fields>
       <libsource lib="hellen-one-common" part="Res_Array_4" description="Resistor"/>
-      <property name="LCSC" value="C12004"/>
+      <property name="LCSC" value="C1980"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="alphax_2ch.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -2749,11 +2749,11 @@
       <node ref="R18" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R33" pin="2" pintype="passive"/>
     </net>
-    <net code="60" name="/IN_MAP">
+    <net code="60" name="/IN_MAP2">
       <node ref="M5" pin="S12" pinfunction="IN_MAP2" pintype="passive"/>
       <node ref="R19" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="61" name="/IN_MAP2">
+    <net code="61" name="/IN_MAP3">
       <node ref="M5" pin="S19" pinfunction="IN_MAP3" pintype="passive"/>
       <node ref="U3" pin="4" pinfunction="Vout" pintype="passive"/>
     </net>
