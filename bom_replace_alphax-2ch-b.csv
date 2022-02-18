@@ -55,3 +55,5 @@ Q6,"VND14NV04-E","DPAK",""
 Q7,"VND14NV04-E","DPAK",""
 Q8,"VND14NV04-E","DPAK",""
 Q9,"VND14NV04-E","DPAK",""
+
+#include board_id_alpha2ch-b.csv 

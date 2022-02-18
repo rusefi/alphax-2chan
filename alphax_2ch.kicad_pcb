@@ -96,7 +96,7 @@
   (net 8 "Net-(D13-Pad1)")
   (net 9 "Net-(D14-Pad1)")
   (net 10 "Net-(D15-Pad1)")
-  (net 11 "Net-(Q3-Pad2)")
+  (net 11 "Net-(D28-Pad1)")
   (net 12 "unconnected-(M5-PadJ16)")
   (net 13 "unconnected-(M5-PadJ15)")
   (net 14 "unconnected-(M6-PadN15)")
@@ -319,7 +319,7 @@
   (net 231 "unconnected-(M6-PadN4)")
   (net 232 "unconnected-(M6-PadN5)")
   (net 233 "/2STEP_PULLDOWN")
-  (net 234 "Net-(R29-Pad1)")
+  (net 234 "Net-(Q20-Pad3)")
   (net 235 "Net-(Q21-Pad3)")
   (net 236 "unconnected-(M6-PadE9)")
   (net 237 "Net-(M6-PadN1)")
@@ -493,7 +493,7 @@
     (fp_line (start -0.2 -0.374995) (end 0.2 -0.374985) (layer "F.SilkS") (width 0.2032) (tstamp 0839f7d0-7aad-469f-880b-8781df1b02d6))
     (fp_line (start -0.201056 0.37084) (end 0.198943 0.370851) (layer "F.SilkS") (width 0.2032) (tstamp 478e1d5f-3361-4094-b60f-abe6a720cf4e))
     (pad "1" smd roundrect (at -0.8 0 270) (size 0.7 0.92) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
-      (net 234 "Net-(R29-Pad1)") (pintype "passive") (tstamp 6c8751cd-556c-475d-8442-c93aed400a10))
+      (net 234 "Net-(Q20-Pad3)") (pintype "passive") (tstamp 6c8751cd-556c-475d-8442-c93aed400a10))
     (pad "2" smd roundrect (at 0.8 0 270) (size 0.7 0.92) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
       (net 230 "+5VAS") (pintype "passive") (tstamp b48216c5-514d-4e22-8f16-4fa788a7e302))
     (model ":hellen-one-models:0603 resistor.STEP"
@@ -1369,7 +1369,7 @@
     (fp_line (start -2.25 1) (end 1.65 1) (layer "F.SilkS") (width 0.12) (tstamp 83e4f5b2-2aa2-4328-b1f7-13d7940d942d))
     (fp_line (start -2.25 -1) (end 1.65 -1) (layer "F.SilkS") (width 0.12) (tstamp b55e2b67-02d7-431c-9f50-cce83c10eba3))
     (pad "1" smd roundrect (at -1.65 0 180) (size 0.9 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
-      (net 11 "Net-(Q3-Pad2)") (pinfunction "K") (pintype "passive") (tstamp 6c586ed8-cc39-4dec-ac31-556692d71056))
+      (net 11 "Net-(D28-Pad1)") (pinfunction "K") (pintype "passive") (tstamp 6c586ed8-cc39-4dec-ac31-556692d71056))
     (pad "2" smd roundrect (at 1.65 0 180) (size 0.9 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
       (net 31 "+5V") (pinfunction "A") (pintype "passive") (tstamp 0e8b578f-501a-401d-b6ea-6b84cca24be2))
     (model ":hellen-one-models:SOD123F.STEP"
@@ -1958,7 +1958,7 @@
     (pad "1" smd roundrect (at -0.9375 -0.95 90) (size 1.475 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 222 "Net-(Q1-Pad2)") (pinfunction "G") (pintype "input") (tstamp d02cc305-cc9d-4a81-9683-c30ba7989ea7))
     (pad "2" smd roundrect (at 0.9375 0 90) (size 1.475 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 11 "Net-(Q3-Pad2)") (pinfunction "D") (pintype "passive") (tstamp e28ee848-67ce-467b-bd3c-f331d94b5071))
+      (net 11 "Net-(D28-Pad1)") (pinfunction "D") (pintype "passive") (tstamp e28ee848-67ce-467b-bd3c-f331d94b5071))
     (pad "3" smd roundrect (at -0.9375 0.95 90) (size 1.475 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 59 "+12V_RAW") (pinfunction "S") (pintype "passive") (tstamp 35cc42f8-0f04-4373-916c-2c16af92ab3d))
     (model ":hellen-one-models:SOT-23.STEP"
@@ -4068,7 +4068,7 @@
     (pad "2" smd roundrect (at 0.9375 0 180) (size 1.475 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "GND") (pinfunction "D") (pintype "passive") (tstamp d5c277ce-b586-4745-8747-b8996ba27954))
     (pad "3" smd roundrect (at -0.9375 0.95 180) (size 1.475 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 234 "Net-(R29-Pad1)") (pinfunction "S") (pintype "passive") (tstamp f10e47e3-5cd0-463f-969e-990e645a1167))
+      (net 234 "Net-(Q20-Pad3)") (pinfunction "S") (pintype "passive") (tstamp f10e47e3-5cd0-463f-969e-990e645a1167))
     (model ":hellen-one-models:SOT-23.STEP"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -6114,7 +6114,7 @@
     (pad "5" smd roundrect (at 0.9 1.275) (size 0.65 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
       (net 194 "unconnected-(R25-Pad5)") (pintype "passive+no_connect") (tstamp 772240e2-919e-488e-a755-4ae16a55363f))
     (pad "6" smd roundrect (at 0.9 0.4) (size 0.45 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
-      (net 11 "Net-(Q3-Pad2)") (pintype "passive") (tstamp 417055ab-edff-4ae9-9203-29ae429e7e4f))
+      (net 11 "Net-(D28-Pad1)") (pintype "passive") (tstamp 417055ab-edff-4ae9-9203-29ae429e7e4f))
     (pad "7" smd roundrect (at 0.9 -0.4) (size 0.45 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
       (net 1 "GND") (pintype "passive") (tstamp d70f2c15-8286-4c3f-a3e1-5b9e0c852bdc))
     (pad "8" smd roundrect (at 0.9 -1.275) (size 0.65 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
@@ -6204,7 +6204,7 @@
     (at 102.637501 116.596377 180)
     (property "Sheetfile" "alphax_2ch.kicad_sch")
     (property "Sheetname" "")
-    (path "/a6bf355d-1d5f-4e79-8e3f-45e3bddf3ceb")
+    (path "/a7d95f89-5755-415c-ab05-3cba0bcc1e6a")
     (zone_connect 2)
     (attr through_hole)
     (fp_text reference "M6" (at 0.254 -38.1254 180 unlocked) (layer "F.SilkS") hide
@@ -7441,7 +7441,7 @@
       (net 182 "/C7") (pinfunction "C7") (pintype "passive") (solder_mask_margin 0.05) (tstamp cd299587-3566-48c2-b7b0-ede206393480))
     (pad "24" thru_hole oval locked (at 25.5 -8 270) (size 2.8 2.3) (drill 1.5) (layers *.Cu *.Mask)
       (net 183 "/C8") (pinfunction "C8") (pintype "passive") (solder_mask_margin 0.05) (tstamp 9b65c9d0-858c-4826-94e3-1e53a6bb86da))
-    (model "${KIPRJMOD}/33311-24AW-2.STEP"
+    (model "${KIPRJMOD}/33311-24AW-2.STEP" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -8131,7 +8131,7 @@
     (pad "1" smd roundrect (at -0.8 0) (size 0.7 0.92) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
       (net 45 "/IN_CAM") (pintype "passive") (tstamp dc56da4e-9e5c-4d41-a5a4-c33dc4a555fa))
     (pad "2" smd roundrect (at 0.8 0) (size 0.7 0.92) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
-      (net 234 "Net-(R29-Pad1)") (pintype "passive") (tstamp 2c12004b-da16-43ef-bdfd-3424627102ad))
+      (net 234 "Net-(Q20-Pad3)") (pintype "passive") (tstamp 2c12004b-da16-43ef-bdfd-3424627102ad))
     (model ":hellen-one-models:0603 resistor.STEP"
       (offset (xyz 0 0.4 0))
       (scale (xyz 1 1 1))
@@ -12258,7 +12258,7 @@
   (segment (start 90.5 77.95) (end 90.5 77.3) (width 1) (layer "F.Cu") (net 40) (tstamp a5125585-d59d-4114-9115-7a0f710b31e2))
   (segment (start 31.227997 87.122) (end 34.049998 84.299999) (width 0.2) (layer "F.Cu") (net 40) (tstamp afdfdf8d-7c6e-4202-9602-468c13321147))
   (segment (start 95.405 71.8) (end 95.405 72.195) (width 1.5) (layer "F.Cu") (net 40) (tstamp b1d0562d-b4c1-4500-9c18-746473fb8691))
-  (via (at 94.1 75.7) (size 1) (drill 0.5) (layers "F.Cu" "B.Cu") (net 40) (tstamp 46c7da43-7282-47b5-9035-d0ab5ba0193c))
+  (via (at 94.1 75.7) (size 1) (drill 0.5) (layers "F.Cu" "B.Cu") (net 40) (tstamp 2d1dad02-6a1d-46d3-b854-5aa81ab4f8f5))
   (via (at 94.1 74.7) (size 1) (drill 0.5) (layers "F.Cu" "B.Cu") (net 40) (tstamp 520cbb39-f4c2-44a4-acba-21e156717208))
   (via (at 87.7 73.7) (size 1) (drill 0.5) (layers "F.Cu" "B.Cu") (net 40) (tstamp 55bb8743-534b-49f9-8cd8-f09cab68a3af))
   (via (at 94.1 78.7) (size 1) (drill 0.5) (layers "F.Cu" "B.Cu") (net 40) (tstamp 5f8a4405-b12f-46df-b275-80a1691dd4b0))
