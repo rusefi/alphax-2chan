@@ -6,8 +6,8 @@
 
   (title_block
     (title "AlphaECU 2chan powered by rusEFI")
-    (date "2022-02-18")
-    (rev "B")
+    (date "2022-03-15")
+    (rev "C")
     (company "rusEFI")
     (comment 7 "http://rusefi.com/s/alphax2ch")
   )
@@ -15725,7 +15725,7 @@
     (property "Value" "SMD1206B035TF/16" (id 1) (at 86.36 252.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "hellen-one-common:SMD1206" (id 2) (at 85.09 256.54 0)
+    (property "Footprint" "hellen-one-common:R1206" (id 2) (at 85.09 256.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 81.28 252.73 0)
@@ -18709,7 +18709,7 @@
       (reference "R39") (unit 1) (value "4.7k") (footprint "hellen-one-common:R0603")
     )
     (path "/8b205030-020d-4604-9166-8a88dda8bc89"
-      (reference "R40") (unit 1) (value "SMD1206B035TF/16") (footprint "hellen-one-common:SMD1206")
+      (reference "R40") (unit 1) (value "SMD1206B035TF/16") (footprint "hellen-one-common:R1206")
     )
     (path "/2a74fb8e-7be5-4e66-b81c-19d69fc683eb"
       (reference "R41") (unit 1) (value "4.7k") (footprint "hellen-one-common:R0603")

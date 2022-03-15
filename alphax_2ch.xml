@@ -2,14 +2,14 @@
 <export version="E">
   <design>
     <source>G:\rusefi\alphax_2ch\alphax_2ch.kicad_sch</source>
-    <date>18/02/2022 21:40:43</date>
+    <date>15/03/2022 08:57:36</date>
     <tool>Eeschema (6.0.1)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>AlphaECU 2chan powered by rusEFI</title>
         <company>rusEFI</company>
-        <rev>B</rev>
-        <date>2022-02-18</date>
+        <rev>C</rev>
+        <date>2022-03-15</date>
         <source>alphax_2ch.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -1500,7 +1500,7 @@
     </comp>
     <comp ref="R40">
       <value>SMD1206B035TF/16</value>
-      <footprint>hellen-one-common:SMD1206</footprint>
+      <footprint>hellen-one-common:R1206</footprint>
       <fields>
         <field name="LCSC">C269114</field>
         <field name="MyComment">0</field>
@@ -3103,8 +3103,8 @@
       <node ref="Q15" pin="3" pinfunction="S" pintype="passive"/>
       <node ref="Q19" pin="3" pinfunction="S" pintype="passive"/>
       <node ref="Q2" pin="3" pinfunction="S" pintype="passive"/>
-      <node ref="Q20" pin="2" pinfunction="D" pintype="passive"/>
-      <node ref="Q21" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="Q20" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q21" pin="3" pinfunction="S" pintype="passive"/>
       <node ref="Q6" pin="3" pinfunction="S" pintype="power_in"/>
       <node ref="Q7" pin="3" pinfunction="S" pintype="power_in"/>
       <node ref="Q8" pin="3" pinfunction="S" pintype="power_in"/>
@@ -3342,13 +3342,13 @@
       <node ref="Q19" pin="2" pinfunction="D" pintype="passive"/>
       <node ref="R39" pin="2" pintype="passive"/>
     </net>
-    <net code="135" name="Net-(Q20-Pad3)">
-      <node ref="Q20" pin="3" pinfunction="S" pintype="passive"/>
+    <net code="135" name="Net-(Q20-Pad2)">
+      <node ref="Q20" pin="2" pinfunction="D" pintype="passive"/>
       <node ref="R29" pin="1" pintype="passive"/>
       <node ref="R44" pin="2" pintype="passive"/>
     </net>
-    <net code="136" name="Net-(Q21-Pad3)">
-      <node ref="Q21" pin="3" pinfunction="S" pintype="passive"/>
+    <net code="136" name="Net-(Q21-Pad2)">
+      <node ref="Q21" pin="2" pinfunction="D" pintype="passive"/>
       <node ref="R42" pin="1" pintype="passive"/>
       <node ref="R45" pin="2" pintype="passive"/>
     </net>
