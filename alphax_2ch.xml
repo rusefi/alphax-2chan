@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>G:\rusefi\alphax_2ch\alphax_2ch.kicad_sch</source>
-    <date>17/03/2022 20:52:38</date>
+    <date>17/03/2022 21:36:03</date>
     <tool>Eeschema (6.0.1)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1633,14 +1633,14 @@
       <tstamps>dba12bde-b0e3-43eb-95a1-e2abe6f5450e</tstamps>
     </comp>
     <comp ref="U2">
-      <value>74HC2G17GW</value>
-      <footprint>hellen-one-common:SOT-363</footprint>
+      <value>SN74LVC2G17DBVR</value>
+      <footprint>hellen-one-common:SOT23-6</footprint>
       <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
       <fields>
-        <field name="LCSC">C94189</field>
+        <field name="LCSC">C10429</field>
       </fields>
       <libsource lib="74xGxx" part="74LVC2G17" description="Dual Buffer Schmitt Triggered, Low-Voltage CMOS"/>
-      <property name="LCSC" value="C94189"/>
+      <property name="LCSC" value="C10429"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="alphax_2ch.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
