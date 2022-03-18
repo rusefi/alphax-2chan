@@ -2,14 +2,14 @@
 <export version="E">
   <design>
     <source>G:\rusefi\alphax_2ch\alphax_2ch.kicad_sch</source>
-    <date>17/03/2022 21:36:03</date>
+    <date>18/03/2022 13:55:21</date>
     <tool>Eeschema (6.0.1)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>AlphaECU 2chan powered by rusEFI</title>
         <company>rusEFI</company>
         <rev>C</rev>
-        <date>2022-03-17</date>
+        <date>2022-03-18</date>
         <source>alphax_2ch.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -652,8 +652,8 @@
       <tstamps>df2a95ce-400c-412f-a5fc-fdc9c05eefc0</tstamps>
     </comp>
     <comp ref="M4">
-      <value>Module-ign8-0.1</value>
-      <footprint>hellen-one-ign8-0.1:ign8</footprint>
+      <value>Module-ign8-0.2</value>
+      <footprint>hellen-one-ign8-0.2:ign8</footprint>
       <libsource lib="hellen-one-ign8-0.1" part="Module-ign8-0.1" description="Hellen-One 8-ch Ignition Module"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="alphax_2ch.kicad_sch"/>
@@ -1637,7 +1637,7 @@
       <footprint>hellen-one-common:SOT23-6</footprint>
       <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
       <fields>
-        <field name="LCSC">C10429</field>
+        <field name="LCSC">C94189</field>
       </fields>
       <libsource lib="74xGxx" part="74LVC2G17" description="Dual Buffer Schmitt Triggered, Low-Voltage CMOS"/>
       <property name="LCSC" value="C10429"/>
@@ -2583,9 +2583,6 @@
     </library>
     <library logical="hellen-one-common">
       <uri>G:\rusefi\alphax_2ch/hellen-one/kicad/hellen-one-common.kicad_sym</uri>
-    </library>
-    <library logical="hellen-one-ign8-0.1">
-      <uri>G:\rusefi\alphax_2ch/hellen-one/modules/ign8/0.1/ign8.kicad_sym</uri>
     </library>
     <library logical="hellen-one-power12-0.2">
       <uri>G:\rusefi\alphax_2ch/hellen-one/modules/power12/0.2/power12.kicad_sym</uri>

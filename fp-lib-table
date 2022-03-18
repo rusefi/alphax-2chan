@@ -8,7 +8,7 @@
   (lib (name "hellen-one-sd-0.1")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/sd/0.1")(options "")(descr "Hellen-One microSD Card Module"))
   (lib (name "hellen-one-power5-0.2")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/power5/0.2")(options "")(descr "Hellen-One Power-5V Module"))
   (lib (name "hellen-one-power12-0.2")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/power12/0.2")(options "")(descr "Hellen-One Power-12V Module"))
-  (lib (name "hellen-one-ign8-0.1")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/ign8/0.1")(options "")(descr "Hellen-One 8-ch Ignition Module"))
+  (lib (name "hellen-one-ign8-0.2")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/ign8/0.2")(options "")(descr "Hellen-One 8-ch Ignition Module"))
   (lib (name "hellen-one-knock-0.1")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/knock/0.1")(options "")(descr "Hellen-One Knock Pre-amplifier Module"))
   (lib (name "hellen-one-stlink-0.1")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/stlink/0.1")(options "")(descr "Hellen-One ST/Link Module"))
   (lib (name "hellen-one-common")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/kicad/footprints")(options "")(descr "Hellen-One common library"))

@@ -6,7 +6,7 @@
 
   (title_block
     (title "AlphaECU 2chan powered by rusEFI")
-    (date "2022-03-17")
+    (date "2022-03-18")
     (rev "C")
     (company "rusEFI")
     (comment 7 "http://rusefi.com/s/alphax2ch")
@@ -15995,8 +15995,8 @@
     (in_bom yes) (on_board yes)
     (uuid 91b56abf-9ad5-4be8-a5c5-2398d74dccc7)
     (property "Reference" "M4" (id 0) (at 238.76 28.4438 0))
-    (property "Value" "Module-ign8-0.1" (id 1) (at 232.41 30.7425 0))
-    (property "Footprint" "hellen-one-ign8-0.1:ign8" (id 2) (at 274.32 24.13 0)
+    (property "Value" "Module-ign8-0.2" (id 1) (at 232.41 30.7425 0))
+    (property "Footprint" "hellen-one-ign8-0.2:ign8" (id 2) (at 274.32 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 274.32 24.13 0)
@@ -18589,7 +18589,7 @@
       (reference "M3") (unit 1) (value "Module-vr-discrete-0.1") (footprint "hellen-one-vr-discrete-0.1:vr-discrete")
     )
     (path "/91b56abf-9ad5-4be8-a5c5-2398d74dccc7"
-      (reference "M4") (unit 1) (value "Module-ign8-0.1") (footprint "hellen-one-ign8-0.1:ign8")
+      (reference "M4") (unit 1) (value "Module-ign8-0.2") (footprint "hellen-one-ign8-0.2:ign8")
     )
     (path "/2491bc1e-e5b1-4fb8-a6b1-0e8865d2abd0"
       (reference "M5") (unit 1) (value "Module-input-0.1") (footprint "hellen-one-input-0.1:input")

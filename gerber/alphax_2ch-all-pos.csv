@@ -43,7 +43,7 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "M1","Module-power12-0.2","power12",29.616015,71.237891,180.000000,top
 "M2","Module-power5-0.2","power5",30.812500,14.487499,90.000000,top
 "M3","Module-vr-discrete-0.1","vr-discrete",30.150000,75.900000,-90.000000,top
-"M4","Module-ign8-0.1","ign8",59.988146,16.570111,-90.000000,top
+"M4","Module-ign8-0.2","ign8",59.988146,16.570111,-90.000000,top
 "M5","Module-input-0.1","input",81.425000,70.329681,180.000000,top
 "M6","Module-mcu144-0.6","mcu",81.537501,54.103623,180.000000,top
 "M7","Module-can-0.1","can",57.918337,5.087501,90.000000,top
