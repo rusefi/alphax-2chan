@@ -15740,7 +15740,7 @@
     (property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" (id 3) (at 233.68 398.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C94189" (id 4) (at 233.68 398.78 0)
+    (property "LCSC" "C10429" (id 4) (at 233.68 398.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "2" (uuid 5f308b5b-ebf2-48bd-9a2c-ac74aa253529))
