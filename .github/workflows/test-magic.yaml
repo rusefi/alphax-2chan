@@ -1,0 +1,24 @@
+name: Check All
+
+on: [push, pull_request]
+
+jobs:
+  build-firmware:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v1
+        with:
+          submodules: recursive
+
+      - name: Print Python Version
+        run: |
+          python3.8 --version
+
+      - name: Step 2 Copy Gerbers
+        run: |
+          bash step2_copy.sh 
+
+      - name: Step 3 Create Board
+        run: |
+          bash step3_create_board.sh
