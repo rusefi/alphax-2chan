@@ -19,6 +19,6 @@ jobs:
         run: |
           bash step2_copy_with_docker.sh
           
-      - name: 3. Create Board
-        run: |
-          bash step3_create_board_with_docker.sh
+#      - name: 3. Create Board
+#        run: |
+#          bash step3_create_board_with_docker.sh
