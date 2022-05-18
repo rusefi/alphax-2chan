@@ -11,7 +11,11 @@ jobs:
         with:
           submodules: recursive
 
-      - name: Build Docker
+      - name: 1. Build Docker
+        run: |
+          bash step1_build_hellen-one_docker.sh
+
+      - name: 2. Copy
         working-directory: hellen-one
         run: |
-          bash step1-build-docker.sh
+          bash step2_copy_with_docker.sh
