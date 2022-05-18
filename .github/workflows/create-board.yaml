@@ -16,6 +16,9 @@ jobs:
           bash step1_build_hellen-one_docker.sh
 
       - name: 2. Copy
-        working-directory: hellen-one
         run: |
           bash step2_copy_with_docker.sh
+          
+      - name: 3. Create Board
+        run: |
+          bash step3_create_board_with_docker.sh
