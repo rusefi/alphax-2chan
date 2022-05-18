@@ -12,5 +12,6 @@ jobs:
           submodules: recursive
 
       - name: Build Docker
+        working-directory: hellen-one
         run: |
-          bash hellen-one/step1-build-docker.sh
+          bash step1-build-docker.sh
