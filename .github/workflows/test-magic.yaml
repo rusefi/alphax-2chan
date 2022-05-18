@@ -11,14 +11,6 @@ jobs:
         with:
           submodules: recursive
 
-      - name: Print Python Version
+      - name: Build Docker
         run: |
-          python3.8 --version
-
-      - name: Step 2 Copy Gerbers
-        run: |
-          bash step2_copy.sh 
-
-      - name: Step 3 Create Board
-        run: |
-          bash step3_create_board.sh
+          bash hellen-one/step1-build-docker.sh
