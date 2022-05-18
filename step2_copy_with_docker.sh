@@ -15,6 +15,6 @@ fi
 #
 # '/${PWD##*/}' is doing the $pwd basename thing again
 
-docker run --rm -it --entrypoint python3 -v "$(pwd)":/${PWD##*/} hellen-one ./bin/copy_from_Kicad.py "frames:alphax_" "/${PWD##*/}" "../../gerber" "2ch" "c"
+docker run --rm -t --entrypoint python3 -v "$(pwd)":/${PWD##*/} hellen-one ./bin/copy_from_Kicad.py "frames:alphax_" "/${PWD##*/}" "../../gerber" "2ch" "c"
 
 echo "Done!"
