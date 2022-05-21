@@ -10,5 +10,5 @@ fi
 source revision.txt
 echo "BOARD_REVISION=[${BOARD_REVISION}]"
 
-docker run --rm -t --user $(id -u):$(id -g) --entrypoint bash -v "$(pwd)":/${PWD##*/} hellen-one ./bin/create_board_with_prefix.sh "alphax_" "/${PWD##*/}" "2ch" "${BOARD_REVISION}" "bom_replace_alphax-2ch-${BOARD_REVISION}.csv " "0,4"
+docker run --rm -t --user $(id -u):$(id -g) --entrypoint bash -v "$(pwd)":/${PWD##*/} hellen-one ./bin/create_board_with_prefix.sh "${BOARD_PREFIX}" "/${PWD##*/}" "${BOARD_SUFFIX}" "${BOARD_REVISION}" "bom_replace_${BOARD_PREFIX}${BOARD_SUFFIX}-${BOARD_REVISION}.csv " "${BOARD_PCB_OFFSET}"
 

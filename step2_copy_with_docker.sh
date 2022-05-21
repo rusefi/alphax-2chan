@@ -18,6 +18,6 @@ fi
 source revision.txt
 echo "BOARD_REVISION=[${BOARD_REVISION}]"
 
-docker run --rm -t --user $(id -u):$(id -g) --entrypoint python3 -v "$(pwd)":/${PWD##*/} hellen-one ./bin/copy_from_Kicad.py "frames:alphax_" "/${PWD##*/}" "../../gerber" "2ch" "${BOARD_REVISION}"
+docker run --rm -t --user $(id -u):$(id -g) --entrypoint python3 -v "$(pwd)":/${PWD##*/} hellen-one ./bin/copy_from_Kicad.py "frames:${BOARD_PREFIX}" "/${PWD##*/}" "../../gerber" "${BOARD_SUFFIX}" "${BOARD_REVISION}"
 
 echo "Done!"
