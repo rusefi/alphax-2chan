@@ -7,5 +7,8 @@ fi
 
 # See step2_copy_with_docker.sh for explanation of the following command
 
-docker run --rm -t --user $(id -u):$(id -g) --entrypoint bash -v "$(pwd)":/${PWD##*/} hellen-one ./bin/create_board_with_prefix.sh "alphax_" "/${PWD##*/}" "2ch" "c" "bom_replace_alphax-2ch-c.csv " "0,4"
+source revision.txt
+echo "BOARD_REVISION=[${BOARD_REVISION}]"
+
+docker run --rm -t --user $(id -u):$(id -g) --entrypoint bash -v "$(pwd)":/${PWD##*/} hellen-one ./bin/create_board_with_prefix.sh "alphax_" "/${PWD##*/}" "2ch" "${BOARD_REVISION}" "bom_replace_alphax-2ch-${BOARD_REVISION}.csv " "0,4"
 
