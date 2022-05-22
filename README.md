@@ -6,4 +6,6 @@ https://www.alphaxpr.com/ powerted by [rusEFI](https://github.com/rusefi/rusefi)
 
 [User Documentation](https://github.com/rusefi/rusefi/wiki/AlphaX-2chan)
 
+[Changelog](https://github.com/rusefi/rusefi/wiki/AlphaX-2chan#changelog)
+
 Designed using [KiCAD](https://www.kicad.org/). Powered by [Hellen One](https://github.com/andreika-git/hellen-one) and [rusEFI](https://github.com/rusefi/rusefi)
