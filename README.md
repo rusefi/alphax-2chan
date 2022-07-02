@@ -1,6 +1,8 @@
 # AlphaX 2 channel
 
-https://www.alphaxpr.com/ powerted by [rusEFI](https://github.com/rusefi/rusefi)
+[buy at https://www.alphaxpr.com/](https://alphaxpr.com/product/2chan-neo/)
+
+powerted by [rusEFI](https://github.com/rusefi/rusefi)
 
 24 pin / 2 channel ECU
 
