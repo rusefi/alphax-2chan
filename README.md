@@ -11,3 +11,5 @@ powerted by [rusEFI](https://github.com/rusefi/rusefi)
 [Changelog](https://github.com/rusefi/rusefi/wiki/AlphaX-2chan#changelog)
 
 Designed using [KiCAD](https://www.kicad.org/). Powered by [Hellen One](https://github.com/andreika-git/hellen-one) and [rusEFI](https://github.com/rusefi/rusefi)
+
+For 4 channel, please see https://github.com/rusefi/alphax-4chan/
