@@ -2,14 +2,14 @@
 <export version="E">
   <design>
     <source>G:\rusefi\alphax_2ch\alphax_2ch.kicad_sch</source>
-    <date>30/08/2022 17:13:27</date>
+    <date>01/09/2022 10:58:50</date>
     <tool>Eeschema (6.0.1)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>AlphaECU 2chan powered by rusEFI</title>
         <company>rusEFI</company>
         <rev>D</rev>
-        <date>2022-08-30</date>
+        <date>2022-09-01</date>
         <source>alphax_2ch.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -376,7 +376,7 @@
       <tstamps>644a0d8c-e981-460a-9155-ddee0ac765e5</tstamps>
     </comp>
     <comp ref="D23">
-      <value>PSM712</value>
+      <value>PSM712-LF</value>
       <footprint>hellen-one-common:SOT-23</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1811061632_ProTek-Devices-PSM712-LF-T7_C32677.pdf</datasheet>
       <fields>
@@ -1730,18 +1730,18 @@
     </comp>
     <comp ref="U1">
       <value>TLS115</value>
-      <footprint>hellen-one-common:PG-DSO-8-43</footprint>
+      <footprint>hellen-one-common:PG-TSON-10-2</footprint>
       <fields>
-        <field name="LCSC">C540242</field>
-        <field name="PN">TLS115D0EJXUMA1</field>
+        <field name="LCSC">C9900011264</field>
+        <field name="PN">TLS115D0LDXUMA1</field>
       </fields>
       <libsource lib="hellen-one-common" part="TLS115" description=""/>
-      <property name="PN" value="TLS115D0EJXUMA1"/>
-      <property name="LCSC" value="C540242"/>
+      <property name="PN" value="TLS115D0LDXUMA1"/>
+      <property name="LCSC" value="C9900011264"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="alphax_2ch.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>dba12bde-b0e3-43eb-95a1-e2abe6f5450e</tstamps>
+      <tstamps>52e7b60c-4d9e-4d26-a8b8-155e49ec6ff4</tstamps>
     </comp>
     <comp ref="U2">
       <value>SN74LVC2G17DBVR</value>
@@ -2424,23 +2424,25 @@
     <libpart lib="hellen-one-common" part="TLS115">
       <docs>~</docs>
       <fields>
-        <field name="Reference">U</field>
+        <field name="Reference">U1</field>
         <field name="Value">TLS115</field>
-        <field name="Footprint">hellen-one-common:PG-DSO-8-43</field>
+        <field name="Footprint">hellen-one-common:PG-TSON-10-2</field>
         <field name="Datasheet">~</field>
-        <field name="PN">TLS115D0EJXUMA1</field>
-        <field name="LCSC">C540242</field>
+        <field name="PN">TLS115D0LDXUMA1</field>
+        <field name="LCSC">C9900011264</field>
       </fields>
       <pins>
         <pin num="1" name="OUT" type="output"/>
         <pin num="2" name="" type="no_connect"/>
         <pin num="3" name="GND" type="power_in"/>
-        <pin num="4" name="PG" type="open_collector"/>
-        <pin num="5" name="ADJ" type="input"/>
-        <pin num="6" name="" type="no_connect"/>
-        <pin num="7" name="EN" type="input"/>
-        <pin num="8" name="IN" type="power_in"/>
-        <pin num="9" name="GND" type="power_in"/>
+        <pin num="4" name="" type="no_connect"/>
+        <pin num="5" name="PG" type="open_collector"/>
+        <pin num="6" name="ADJ" type="input"/>
+        <pin num="7" name="" type="no_connect"/>
+        <pin num="8" name="EN" type="input"/>
+        <pin num="9" name="" type="no_connect"/>
+        <pin num="10" name="IN" type="power_in"/>
+        <pin num="11" name="GND" type="power_in"/>
       </pins>
     </libpart>
     <libpart lib="hellen-one-common" part="USB_B_Mini">
@@ -2739,7 +2741,7 @@
       <node ref="R3" pin="1" pintype="passive"/>
       <node ref="R4" pin="3" pintype="passive"/>
       <node ref="R46" pin="2" pintype="passive"/>
-      <node ref="U1" pin="5" pinfunction="ADJ" pintype="input"/>
+      <node ref="U1" pin="6" pinfunction="ADJ" pintype="input"/>
       <node ref="U2" pin="5" pinfunction="VCC" pintype="power_in"/>
     </net>
     <net code="4" name="+5VA">
@@ -2776,7 +2778,7 @@
       <node ref="R2" pin="3" pintype="passive"/>
       <node ref="R2" pin="4" pintype="passive"/>
       <node ref="R5" pin="4" pintype="passive"/>
-      <node ref="U1" pin="8" pinfunction="IN" pintype="power_in"/>
+      <node ref="U1" pin="10" pinfunction="IN" pintype="power_in"/>
     </net>
     <net code="8" name="+12V_RAW">
       <node ref="D20" pin="1" pinfunction="A" pintype="passive"/>
@@ -3133,7 +3135,7 @@
       <node ref="M6" pin="E6" pinfunction="OUT_IO3" pintype="passive"/>
       <node ref="Q19" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R38" pin="1" pintype="passive"/>
-      <node ref="U1" pin="7" pinfunction="EN" pintype="input"/>
+      <node ref="U1" pin="8" pinfunction="EN" pintype="input"/>
     </net>
     <net code="82" name="/SWCLK">
       <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
@@ -3169,7 +3171,7 @@
     <net code="89" name="/TLS115_PG">
       <node ref="M6" pin="S4" pinfunction="IN_D2" pintype="passive"/>
       <node ref="R3" pin="2" pintype="passive"/>
-      <node ref="U1" pin="4" pinfunction="PG" pintype="open_collector"/>
+      <node ref="U1" pin="5" pinfunction="PG" pintype="open_collector"/>
     </net>
     <net code="90" name="/TPS">
       <node ref="M5" pin="N17" pinfunction="TPS" pintype="passive"/>
@@ -3272,8 +3274,8 @@
       <node ref="R5" pin="2" pintype="passive"/>
       <node ref="R5" pin="3" pintype="passive"/>
       <node ref="S1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="GND" pintype="power_in"/>
       <node ref="U1" pin="3" pinfunction="GND" pintype="power_in"/>
-      <node ref="U1" pin="9" pinfunction="GND" pintype="power_in"/>
       <node ref="U2" pin="2" pinfunction="GND" pintype="power_in"/>
       <node ref="U3" pin="3" pinfunction="GND" pintype="passive"/>
       <node ref="U4" pin="13" pinfunction="GND" pintype="power_in"/>
@@ -3790,28 +3792,34 @@
     <net code="236" name="unconnected-(U1-Pad2)">
       <node ref="U1" pin="2" pintype="no_connect"/>
     </net>
-    <net code="237" name="unconnected-(U1-Pad6)">
-      <node ref="U1" pin="6" pintype="no_connect"/>
+    <net code="237" name="unconnected-(U1-Pad4)">
+      <node ref="U1" pin="4" pintype="no_connect"/>
     </net>
-    <net code="238" name="unconnected-(U3-Pad1)">
+    <net code="238" name="unconnected-(U1-Pad7)">
+      <node ref="U1" pin="7" pintype="no_connect"/>
+    </net>
+    <net code="239" name="unconnected-(U1-Pad9)">
+      <node ref="U1" pin="9" pintype="no_connect"/>
+    </net>
+    <net code="240" name="unconnected-(U3-Pad1)">
       <node ref="U3" pin="1" pintype="passive+no_connect"/>
     </net>
-    <net code="239" name="unconnected-(U3-Pad5)">
+    <net code="241" name="unconnected-(U3-Pad5)">
       <node ref="U3" pin="5" pintype="passive+no_connect"/>
     </net>
-    <net code="240" name="unconnected-(U3-Pad6)">
+    <net code="242" name="unconnected-(U3-Pad6)">
       <node ref="U3" pin="6" pintype="passive+no_connect"/>
     </net>
-    <net code="241" name="unconnected-(U3-Pad7)">
+    <net code="243" name="unconnected-(U3-Pad7)">
       <node ref="U3" pin="7" pintype="passive+no_connect"/>
     </net>
-    <net code="242" name="unconnected-(U3-Pad8)">
+    <net code="244" name="unconnected-(U3-Pad8)">
       <node ref="U3" pin="8" pintype="passive+no_connect"/>
     </net>
-    <net code="243" name="unconnected-(U4-Pad5)">
+    <net code="245" name="unconnected-(U4-Pad5)">
       <node ref="U4" pin="5" pinfunction="IO1" pintype="passive+no_connect"/>
     </net>
-    <net code="244" name="unconnected-(U4-Pad6)">
+    <net code="246" name="unconnected-(U4-Pad6)">
       <node ref="U4" pin="6" pinfunction="IO2" pintype="passive+no_connect"/>
     </net>
   </nets>
