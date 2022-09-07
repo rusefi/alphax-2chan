@@ -53,4 +53,7 @@ Q7,"VND14NV04TR-E","DPAK","C2649436"
 Q8,"VND14NV04TR-E","DPAK","C2649436"
 Q9,"VND14NV04TR-E","DPAK","C2649436"
 
+# analog switches for VR-discrete
+"U755, U756","WAS3157B-6","SOT-363","C213161"
+
 #include hellen-one/board_id/generated/board_id_alpha2ch-d.csv
