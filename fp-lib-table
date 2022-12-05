@@ -16,4 +16,6 @@
   (lib (name "hellen-one-dinput4-0.1")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/dinput4/0.1")(options "")(descr "Hellen-One Digital Inputs Module"))
   (lib (name "hellen-one-vr-discrete-0.1")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/vr-discrete/0.1")(options "")(descr "Hellen-One VR discrete Module"))
   (lib (name "alphax-2ch")(type "KiCad")(uri "${KIPRJMOD}")(options "")(descr "AlphaX 2-channel"))
+  (lib (name "hellen-one-mega-mcu144-0.1")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/mega-mcu144/0.1")(options "")(descr ""))
+  (lib (name "hellen-one-knock-0.2")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/knock/0.2")(options "")(descr ""))
 )
