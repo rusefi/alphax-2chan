@@ -1,4 +1,4 @@
-20733727184418653
+20730445915421483
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -86566,8 +86566,8 @@ mega-mcu144
 
 
 0
-151
-112
+157
+114
 hellen-one-output-0.3
 output
 
@@ -86575,20 +86575,13 @@ output
 0
 73
 59
-hellen-one-power5-0.2
-power5
+hellen-one-power_12and5V-0.1
+power_12and5V
 
 
 0
-13
-3
-hellen-one-power12-0.2
-power12
-
-
-0
-14
-8
+51
+11
 hellen-one-sd-0.1
 sd
 
@@ -86617,13 +86610,6 @@ wbo
 0
 34
 21
-power123
-power
-
-
-0
-51
-11
 rusefi_lib
 8-1393476-0
 
