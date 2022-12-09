@@ -12992,7 +12992,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 83f262b7-b4a6-44ac-9a4a-34e8a850d4a1)
     (property "Reference" "M4" (id 0) (at 434.34 29.21 0))
-    (property "Value" "mega-mcu144-0.1" (id 1) (at 434.34 31.75 0))
+    (property "Value" "Module-mega-mcu144-0.1" (id 1) (at 434.34 31.75 0))
     (property "Footprint" "hellen-one-mega-mcu144-0.1:mega-mcu144" (id 2) (at 447.04 247.65 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -15225,7 +15225,7 @@
       (reference "M3") (unit 1) (value "Module-vr-discrete-0.1") (footprint "hellen-one-vr-discrete-0.1:vr-discrete")
     )
     (path "/83f262b7-b4a6-44ac-9a4a-34e8a850d4a1"
-      (reference "M4") (unit 1) (value "mega-mcu144-0.1") (footprint "hellen-one-mega-mcu144-0.1:mega-mcu144")
+      (reference "M4") (unit 1) (value "Module-mega-mcu144-0.1") (footprint "hellen-one-mega-mcu144-0.1:mega-mcu144")
     )
     (path "/a2326ebc-6cfa-4f20-8be5-c340d5e4c015"
       (reference "M8") (unit 1) (value "Module-can-0.1") (footprint "hellen-one-can-0.1:can")

@@ -52,7 +52,7 @@
 "Pad","J8","hellen-one-common:PAD-TH",""
 "Module-power_12and5V-0.1","M1","hellen-one-power_12and5V-0.1:power_12and5V",""
 "Module-vr-discrete-0.1","M3","hellen-one-vr-discrete-0.1:vr-discrete",""
-"mega-mcu144-0.1","M4","hellen-one-mega-mcu144-0.1:mega-mcu144",""
+"Module-mega-mcu144-0.1","M4","hellen-one-mega-mcu144-0.1:mega-mcu144",""
 "Module-can-0.1","M8","hellen-one-can-0.1:can",""
 "33311-24AW-2","P1","alphax-2ch:33311-24AW-2",""
 "Pad","P2","hellen-one-common:PAD-TH",""
