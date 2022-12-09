@@ -12736,7 +12736,7 @@
   (symbol (lib_id "Diode:BAT54S") (at 288.29 375.92 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 780e7205-1039-4ad4-b377-f29f516e7250)
-    (property "Reference" "D?" (id 0) (at 283.21 373.38 0))
+    (property "Reference" "D31" (id 0) (at 283.21 373.38 0))
     (property "Value" "BAT54S" (id 1) (at 292.1 373.38 0))
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (id 2) (at 290.195 379.095 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
@@ -13197,7 +13197,7 @@
   (symbol (lib_id "power:GND") (at 280.67 375.92 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 89ff58ea-c194-47d6-8e82-ed22728d238d)
-    (property "Reference" "#PWR?" (id 0) (at 274.32 375.92 0)
+    (property "Reference" "#PWR0106" (id 0) (at 274.32 375.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 276.225 375.92 0))
@@ -13783,7 +13783,7 @@
   (symbol (lib_id "Diode:BAT54S") (at 274.32 368.3 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid b9398627-7dd2-4984-a8be-1e14ba0e908f)
-    (property "Reference" "D?" (id 0) (at 269.24 365.76 0))
+    (property "Reference" "D30" (id 0) (at 269.24 365.76 0))
     (property "Value" "BAT54S" (id 1) (at 278.13 365.76 0))
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (id 2) (at 276.225 371.475 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
@@ -14569,7 +14569,7 @@
   (symbol (lib_id "power:GND") (at 266.7 368.3 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid ed6feaaa-6154-4f5f-9ea0-c948c4ac1b4e)
-    (property "Reference" "#PWR?" (id 0) (at 260.35 368.3 0)
+    (property "Reference" "#PWR0105" (id 0) (at 260.35 368.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 262.255 368.3 0))
@@ -15029,6 +15029,12 @@
     (path "/312e2abd-2a62-4633-9731-389c49afa480"
       (reference "#PWR0104") (unit 1) (value "+5VA") (footprint "")
     )
+    (path "/ed6feaaa-6154-4f5f-9ea0-c948c4ac1b4e"
+      (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/89ff58ea-c194-47d6-8e82-ed22728d238d"
+      (reference "#PWR0106") (unit 1) (value "GND") (footprint "")
+    )
     (path "/39d52715-0172-4c12-bc23-16e4d983b08f"
       (reference "#PWR0107") (unit 1) (value "+5V") (footprint "")
     )
@@ -15058,12 +15064,6 @@
     )
     (path "/8fdd61fe-ae3f-48d9-a815-e4f0ea308f2c"
       (reference "#PWR01003") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/89ff58ea-c194-47d6-8e82-ed22728d238d"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/ed6feaaa-6154-4f5f-9ea0-c948c4ac1b4e"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/e47e7c78-59b0-46ac-9242-3c2f486cfa82"
       (reference "C2") (unit 1) (value "100n") (footprint "hellen-one-common:C0603")
@@ -15161,11 +15161,11 @@
     (path "/4fb7eaea-bfe1-4985-9ca1-1efbbfd0c188"
       (reference "D29") (unit 1) (value "B5819W") (footprint "hellen-one-common:SOD-123")
     )
-    (path "/780e7205-1039-4ad4-b377-f29f516e7250"
-      (reference "D?") (unit 1) (value "BAT54S") (footprint "Package_TO_SOT_SMD:SOT-23")
-    )
     (path "/b9398627-7dd2-4984-a8be-1e14ba0e908f"
-      (reference "D?") (unit 1) (value "BAT54S") (footprint "Package_TO_SOT_SMD:SOT-23")
+      (reference "D30") (unit 1) (value "BAT54S") (footprint "Package_TO_SOT_SMD:SOT-23")
+    )
+    (path "/780e7205-1039-4ad4-b377-f29f516e7250"
+      (reference "D31") (unit 1) (value "BAT54S") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/69ae807e-3812-4791-82f2-00cd9569cc0b"
       (reference "F1") (unit 1) (value "nSMD005") (footprint "hellen-one-common:PAD-1206-PAD")
