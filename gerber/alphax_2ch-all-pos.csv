@@ -44,7 +44,7 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "F5","12H1500D","PAD-1206-PAD",32.300000,84.200000,-90.000000,top
 "J1","USB_B_Mini","USB-MINI-B-HORIZONTAL",28.910000,6.475000,90.000000,top
 "J2","Cortex_Debug","PinHeader_2x05_P1.27mm_Vertical_SMD",53.598607,5.000000,90.000000,top
-"M1","Module-power_12and5V-0.1","power_12and5V",12.574999,71.824999,-90.000000,top
+"M1","Module-power_12and5V-0.1","power_12and5V",12.474999,71.925002,-90.000000,top
 "M3","Module-vr-discrete-0.1","vr-discrete",33.950000,75.600000,-90.000000,top
 "M4","Module-mega-mcu144-0.1","mega-mcu144",80.475001,55.075001,180.000000,top
 "M8","Module-can-0.1","can",61.877502,0.451663,0.000000,top
