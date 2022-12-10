@@ -52,7 +52,7 @@ Comment,Designator,Footprint,LCSC Part #
 "Pad","J8","PAD-TH",""
 "Module:power_12and5V/0.1","M1","power_12and5V",""
 "Module:vr-discrete/0.1","M3","vr-discrete",""
-"mega-mcu144-0.1","M4","mega-mcu144",""
+"Module:mega-mcu144/0.1","M4","mega-mcu144",""
 "Module:can/0.1","M8","can",""
 "33311-24AW-2","P1","33311-24AW-2",""
 "Pad","P2","PAD-TH",""
