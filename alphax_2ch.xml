@@ -2,14 +2,14 @@
 <export version="E">
   <design>
     <source>C:\Work\rusefi\github\alphax-2chan\alphax_2ch.kicad_sch</source>
-    <date>12/10/2022 2:03:31 PM</date>
+    <date>12/11/2022 6:09:35 PM</date>
     <tool>Eeschema (6.0.9)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>AlphaECU 2chan powered by rusEFI</title>
         <company>rusEFI</company>
         <rev>E</rev>
-        <date>2022-12-01</date>
+        <date>2022-12-11</date>
         <source>alphax_2ch.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>

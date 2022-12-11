@@ -6,7 +6,7 @@
 
   (title_block
     (title "AlphaECU 2chan powered by rusEFI")
-    (date "2022-12-01")
+    (date "2022-12-11")
     (rev "E")
     (company "rusEFI")
     (comment 7 "http://rusefi.com/s/alphax2ch")
