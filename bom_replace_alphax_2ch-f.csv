@@ -1,0 +1,49 @@
+# remove +5V pull-ups from SPI1, because we use it with +3.3v accelerometer
+R103,
+R105,
+
+# remove jumper resistor connecting BOOT1 with A22 input line, because we use STM32F4
+R131,
+
+# STM32
+U105,"STM32F427ZGT6","LQFP144","C117816"
+
+# Alpha2Ch: We don't use SENS1-SENS4 and AUX1-AUX4, so we don't need these OpAmps
+U170,
+U190,
+
+# DC-DC Inductor
+L421,"MWSA0503S-100MT","MWSA0503","C408412"
+#L420,"LBC3225T2R2MR","L1210","C223413"
+
+# LMR14020->LMR14030 (more power, no problem)
+#U420,"LMR14030","SOP8","C182078"
+
+#fuses
+F410,"nSMD050-24V","SMD1206","C70076"
+#F300,"nSMD050-24V","SMD1206","C70076"
+
+# JLC-BOM stock shortages...
+#U420,"LMR14020SDDAR","SOP8","C187824"
+#S1000,"TS-1088R-02026","SMD-2_2.9x3.9x1.7","C455280"
+#S1001,"TS-1088R-02026","SMD-2_2.9x3.9x1.7","C455280"
+#F5,"0437005.WR","PAD-1206-PAD","C553924"
+#L420,"NLV32T-2R2J-PF","L1210","C89016"
+R4,"4D03WGF1001T5E","R0603-4","C425239"
+U411,"TLS115B0EJXUMA1","PG-DSO-8","C3743696"
+
+# no Cortex 5x2 header
+J2,"Cortex_Debug","PinHeader_2x05_P1.27mm_Vertical_SMD",""
+# no MAP sensor
+U3,"MPXH6400A","MPXH6400A-SSOP8",""
+# smart MOSFETs
+Q6,"VND10N06TR-E","DPAK","C2149912"
+Q7,"VND10N06TR-E","DPAK","C2149912"
+Q8,"VND10N06TR-E","DPAK","C2149912"
+Q9,"VND10N06TR-E","DPAK","C2149912"
+
+# analog switches for VR-discrete
+#"U755, U756","WAS3157B-6","SOT-363","C213161"
+
+#include hellen-one/board_id/generated/board_id_alpha2ch-f.csv
+#include bom_pullups_alphax_2ch-e.csv
