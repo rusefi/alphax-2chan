@@ -5,8 +5,8 @@ R105,
 # remove jumper resistor connecting BOOT1 with A22 input line, because we use STM32F4
 R131,
 
-# STM32
-U105,"STM32F427ZGT6","LQFP144","C117816"
+# STM32 whatever is cheapest would go, right?
+U105,"STM32F407ZGT7","LQFP144","C19156"
 
 # Alpha2Ch: We don't use SENS1-SENS4 and AUX1-AUX4, so we don't need these OpAmps
 U170,
