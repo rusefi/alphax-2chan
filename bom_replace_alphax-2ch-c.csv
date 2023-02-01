@@ -53,4 +53,4 @@ Q7,"VND14NV04TR-E","DPAK","C2649436"
 Q8,"VND14NV04TR-E","DPAK","C2649436"
 Q9,"VND14NV04TR-E","DPAK","C2649436"
 
-#include board_id_alpha2ch-c.csv
+#include hellen-one/board_id/generated/board_id_alpha2ch-c.csv
