@@ -42,6 +42,9 @@ Q7,"VND10N06TR-E","DPAK","C2149912"
 Q8,"VND10N06TR-E","DPAK","C2149912"
 Q9,"VND10N06TR-E","DPAK","C2149912"
 
+# no software for accelerometer
+U1001,
+
 # analog switches for VR-discrete
 #"U755, U756","WAS3157B-6","SOT-363","C213161"
 
