@@ -1,5 +1,6 @@
 {
   "board": {
+    "3dviewports": [],
     "design_settings": {
       "defaults": {
         "board_outline_line_width": 0.19999999999999998,
@@ -195,7 +196,8 @@
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
-    "layer_presets": []
+    "layer_presets": [],
+    "viewports": []
   },
   "boards": [],
   "cvpcb": {
@@ -379,18 +381,23 @@
     "rule_severities": {
       "bus_definition_conflict": "error",
       "bus_entry_needed": "error",
-      "bus_label_syntax": "error",
       "bus_to_bus_conflict": "error",
       "bus_to_net_conflict": "error",
+      "conflicting_netclasses": "error",
       "different_unit_footprint": "error",
       "different_unit_net": "error",
       "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
+      "endpoint_off_grid": "warning",
       "extra_units": "error",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
       "lib_symbol_issues": "warning",
+      "missing_bidi_pin": "warning",
+      "missing_input_pin": "warning",
+      "missing_power_pin": "error",
+      "missing_unit": "warning",
       "multiple_net_names": "warning",
       "net_not_bus_member": "ignore",
       "no_connect_connected": "warning",
@@ -400,6 +407,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "ignore",
       "similar_labels": "warning",
+      "simulation_model_issue": "error",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -417,7 +425,7 @@
   "net_settings": {
     "classes": [
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.2,
         "diff_pair_via_gap": 0.25,
@@ -431,10 +439,10 @@
         "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.3,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.254,
         "diff_pair_via_gap": 0.25,
@@ -443,18 +451,15 @@
         "microvia_diameter": 0.508,
         "microvia_drill": 0.127,
         "name": "GND",
-        "nets": [
-          "GND"
-        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.3,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.6,
         "diff_pair_gap": 0.2,
         "diff_pair_via_gap": 0.25,
@@ -463,24 +468,41 @@
         "microvia_diameter": 0.508,
         "microvia_drill": 0.127,
         "name": "IN_CRANK",
-        "nets": [
-          "/C2",
-          "/C3",
-          "/IN_CRANK+",
-          "/IN_CRANK-"
-        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.3,
-        "wire_width": 6.0
+        "wire_width": 6
       }
     ],
     "meta": {
-      "version": 2
+      "version": 3
     },
-    "net_colors": null
+    "net_colors": null,
+    "netclass_assignments": null,
+    "netclass_patterns": [
+      {
+        "netclass": "GND",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "IN_CRANK",
+        "pattern": "/C2"
+      },
+      {
+        "netclass": "IN_CRANK",
+        "pattern": "/C3"
+      },
+      {
+        "netclass": "IN_CRANK",
+        "pattern": "/IN_CRANK+"
+      },
+      {
+        "netclass": "IN_CRANK",
+        "pattern": "/IN_CRANK-"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -496,6 +518,8 @@
   "schematic": {
     "annotate_start_num": 0,
     "drawing": {
+      "dashed_lines_dash_length_ratio": 12.0,
+      "dashed_lines_gap_length_ratio": 3.0,
       "default_bus_thickness": 12.0,
       "default_junction_size": 40.0,
       "default_line_thickness": 6.0,
@@ -530,7 +554,11 @@
     "page_layout_descr_file": "kicad-libraries/Border.kicad_wks",
     "plot_directory": "gerber/",
     "spice_adjust_passive_values": false,
+    "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
+    "spice_model_current_sheet_as_root": true,
+    "spice_save_all_currents": false,
+    "spice_save_all_voltages": false,
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
@@ -538,6 +566,38 @@
     [
       "63d2dd9f-d5ff-4811-a88d-0ba932475460",
       ""
+    ],
+    [
+      "9d977373-4f67-4aac-9cf9-121f878fd353",
+      "LS"
+    ],
+    [
+      "5b96a78f-7d68-4f66-b4d5-b6b0f3a4df27",
+      "LS_WEAK"
+    ],
+    [
+      "9c11ca9f-5e65-49fd-94ec-28151f50ee4d",
+      "MAP"
+    ],
+    [
+      "25bb1ae2-5191-421b-8509-ded5b406e695",
+      "DOUBLE_PU"
+    ],
+    [
+      "f82ec3f5-f5a8-4ffe-9757-ec463f6d51a7",
+      "TACH_PU"
+    ],
+    [
+      "c3180053-8962-408f-82db-60bcd283a2bd",
+      "HALL_PU2"
+    ],
+    [
+      "3b38ccf0-8d25-4e2b-b240-0c1a92c0a5a5",
+      "PD2"
+    ],
+    [
+      "54974657-a285-41c5-9552-605480cc49fd",
+      "HS2"
     ]
   ],
   "text_variables": {}
