@@ -299,7 +299,7 @@
           (reference "U3") (unit 1)
         )
         (path "/63d2dd9f-d5ff-4811-a88d-0ba932475460/9c11ca9f-5e65-49fd-94ec-28151f50ee4d"
-          (reference "U3") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -327,7 +327,7 @@
           (reference "#PWR047") (unit 1)
         )
         (path "/63d2dd9f-d5ff-4811-a88d-0ba932475460/9c11ca9f-5e65-49fd-94ec-28151f50ee4d"
-          (reference "#PWR047") (unit 1)
+          (reference "#PWR077") (unit 1)
         )
       )
     )
@@ -355,7 +355,7 @@
           (reference "#PWR0115") (unit 1)
         )
         (path "/63d2dd9f-d5ff-4811-a88d-0ba932475460/9c11ca9f-5e65-49fd-94ec-28151f50ee4d"
-          (reference "#PWR0115") (unit 1)
+          (reference "#PWR047") (unit 1)
         )
       )
     )

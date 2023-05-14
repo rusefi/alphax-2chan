@@ -672,7 +672,7 @@
           (reference "#PWR0102") (unit 1)
         )
         (path "/63d2dd9f-d5ff-4811-a88d-0ba932475460/25bb1ae2-5191-421b-8509-ded5b406e695"
-          (reference "#PWR0102") (unit 1)
+          (reference "#PWR080") (unit 1)
         )
       )
     )
@@ -700,7 +700,7 @@
           (reference "#PWR0113") (unit 1)
         )
         (path "/63d2dd9f-d5ff-4811-a88d-0ba932475460/25bb1ae2-5191-421b-8509-ded5b406e695"
-          (reference "#PWR0113") (unit 1)
+          (reference "#PWR079") (unit 1)
         )
       )
     )
@@ -732,7 +732,7 @@
           (reference "R30") (unit 1)
         )
         (path "/63d2dd9f-d5ff-4811-a88d-0ba932475460/25bb1ae2-5191-421b-8509-ded5b406e695"
-          (reference "R30") (unit 1)
+          (reference "R56") (unit 1)
         )
       )
     )
@@ -765,7 +765,7 @@
           (reference "Q14") (unit 1)
         )
         (path "/63d2dd9f-d5ff-4811-a88d-0ba932475460/25bb1ae2-5191-421b-8509-ded5b406e695"
-          (reference "Q14") (unit 1)
+          (reference "Q12") (unit 1)
         )
       )
     )
@@ -793,7 +793,7 @@
           (reference "#PWR0113") (unit 1)
         )
         (path "/63d2dd9f-d5ff-4811-a88d-0ba932475460/25bb1ae2-5191-421b-8509-ded5b406e695"
-          (reference "#PWR0113") (unit 1)
+          (reference "#PWR078") (unit 1)
         )
       )
     )
@@ -885,7 +885,7 @@
           (reference "#PWR059") (unit 1)
         )
         (path "/63d2dd9f-d5ff-4811-a88d-0ba932475460/25bb1ae2-5191-421b-8509-ded5b406e695"
-          (reference "#PWR059") (unit 1)
+          (reference "#PWR081") (unit 1)
         )
       )
     )
@@ -946,7 +946,7 @@
           (reference "#PWR0113") (unit 1)
         )
         (path "/63d2dd9f-d5ff-4811-a88d-0ba932475460/25bb1ae2-5191-421b-8509-ded5b406e695"
-          (reference "#PWR0113") (unit 1)
+          (reference "#PWR059") (unit 1)
         )
       )
     )
@@ -978,7 +978,7 @@
           (reference "R31") (unit 1)
         )
         (path "/63d2dd9f-d5ff-4811-a88d-0ba932475460/25bb1ae2-5191-421b-8509-ded5b406e695"
-          (reference "R31") (unit 1)
+          (reference "R55") (unit 1)
         )
       )
     )
@@ -1011,7 +1011,7 @@
           (reference "Q12") (unit 1)
         )
         (path "/63d2dd9f-d5ff-4811-a88d-0ba932475460/25bb1ae2-5191-421b-8509-ded5b406e695"
-          (reference "Q12") (unit 1)
+          (reference "Q14") (unit 1)
         )
       )
     )
