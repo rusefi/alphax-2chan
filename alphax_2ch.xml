@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\Work\rusefi\github\alphax-2chan\alphax_2ch.kicad_sch</source>
-    <date>6/10/2023 11:22:11 PM</date>
+    <date>6/10/2023 11:47:01 PM</date>
     <tool>Eeschema 7.0.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -477,10 +477,10 @@
       <value>nSMD005</value>
       <footprint>hellen-one-common:PAD-1206-PAD</footprint>
       <fields>
-        <field name="LCSC">C369153</field>
+        <field name="LCSC">C720075</field>
       </fields>
       <libsource lib="hellen-one-common" part="Fuse-Pad-Pad" description="12H1500D"/>
-      <property name="LCSC" value="C369153"/>
+      <property name="LCSC" value="C720075"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="alphax_2ch.kicad_sch"/>
       <property name="ki_description" value="12H1500D"/>
@@ -491,10 +491,10 @@
       <value>nSMD005</value>
       <footprint>hellen-one-common:PAD-1206-PAD</footprint>
       <fields>
-        <field name="LCSC">C369153</field>
+        <field name="LCSC">C720075</field>
       </fields>
       <libsource lib="hellen-one-common" part="Fuse-Pad-Pad" description="12H1500D"/>
-      <property name="LCSC" value="C369153"/>
+      <property name="LCSC" value="C720075"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="alphax_2ch.kicad_sch"/>
       <property name="ki_description" value="12H1500D"/>
@@ -547,10 +547,10 @@
       <value>nSMD005</value>
       <footprint>hellen-one-common:PAD-1206-PAD</footprint>
       <fields>
-        <field name="LCSC">C369153</field>
+        <field name="LCSC">C720075</field>
       </fields>
       <libsource lib="hellen-one-common" part="Fuse-Pad-Pad" description="12H1500D"/>
-      <property name="LCSC" value="C369153"/>
+      <property name="LCSC" value="C720075"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="alphax_2ch.kicad_sch"/>
       <property name="ki_description" value="12H1500D"/>
@@ -561,10 +561,10 @@
       <value>nSMD005</value>
       <footprint>hellen-one-common:PAD-1206-PAD</footprint>
       <fields>
-        <field name="LCSC">C369153</field>
+        <field name="LCSC">C720075</field>
       </fields>
       <libsource lib="hellen-one-common" part="Fuse-Pad-Pad" description="12H1500D"/>
-      <property name="LCSC" value="C369153"/>
+      <property name="LCSC" value="C720075"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="alphax_2ch.kicad_sch"/>
       <property name="ki_description" value="12H1500D"/>
@@ -856,10 +856,10 @@
       <value>4.7k</value>
       <footprint>hellen-one-common:R0603-4</footprint>
       <fields>
-        <field name="LCSC">C1980</field>
+        <field name="LCSC">C66697</field>
       </fields>
       <libsource lib="hellen-one-common" part="Res_Array_4" description="Resistor"/>
-      <property name="LCSC" value="C1980"/>
+      <property name="LCSC" value="C66697"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="alphax_2ch.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -870,10 +870,10 @@
       <value>4.7k</value>
       <footprint>hellen-one-common:R0603-4</footprint>
       <fields>
-        <field name="LCSC">C1980</field>
+        <field name="LCSC">C66697</field>
       </fields>
       <libsource lib="hellen-one-common" part="Res_Array_4" description="Resistor"/>
-      <property name="LCSC" value="C1980"/>
+      <property name="LCSC" value="C66697"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="alphax_2ch.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -912,10 +912,10 @@
       <value>4.7k</value>
       <footprint>hellen-one-common:R0603-4</footprint>
       <fields>
-        <field name="LCSC">C1980</field>
+        <field name="LCSC">C66697</field>
       </fields>
       <libsource lib="hellen-one-common" part="Res_Array_4" description="Resistor"/>
-      <property name="LCSC" value="C1980"/>
+      <property name="LCSC" value="C66697"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="alphax_2ch.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -1946,10 +1946,10 @@
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://www.diodes.com/assets/Datasheets/ds11005.pdf</datasheet>
       <fields>
-        <field name="LCSC">C408389</field>
+        <field name="LCSC">C47546</field>
       </fields>
       <libsource lib="Diode" part="BAT54S" description="Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323"/>
-      <property name="LCSC" value="C408389"/>
+      <property name="LCSC" value="C47546"/>
       <property name="Sheetname" value="HALL_PU2"/>
       <property name="Sheetfile" value="HALL_PU2.kicad_sch"/>
       <property name="ki_description" value="Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323"/>
@@ -1962,10 +1962,10 @@
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://www.diodes.com/assets/Datasheets/ds11005.pdf</datasheet>
       <fields>
-        <field name="LCSC">C408389</field>
+        <field name="LCSC">C47546</field>
       </fields>
       <libsource lib="Diode" part="BAT54S" description="Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323"/>
-      <property name="LCSC" value="C408389"/>
+      <property name="LCSC" value="C47546"/>
       <property name="Sheetname" value="HALL_PU2"/>
       <property name="Sheetfile" value="HALL_PU2.kicad_sch"/>
       <property name="ki_description" value="Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323"/>
