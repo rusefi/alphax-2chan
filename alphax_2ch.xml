@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\Work\rusefi\github\alphax-2chan\alphax_2ch.kicad_sch</source>
-    <date>6/10/2023 11:47:01 PM</date>
+    <date>6/10/2023 11:58:12 PM</date>
     <tool>Eeschema 7.0.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -477,10 +477,10 @@
       <value>nSMD005</value>
       <footprint>hellen-one-common:PAD-1206-PAD</footprint>
       <fields>
-        <field name="LCSC">C720075</field>
+        <field name="LCSC">C70064</field>
       </fields>
       <libsource lib="hellen-one-common" part="Fuse-Pad-Pad" description="12H1500D"/>
-      <property name="LCSC" value="C720075"/>
+      <property name="LCSC" value="C70064"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="alphax_2ch.kicad_sch"/>
       <property name="ki_description" value="12H1500D"/>
@@ -491,10 +491,10 @@
       <value>nSMD005</value>
       <footprint>hellen-one-common:PAD-1206-PAD</footprint>
       <fields>
-        <field name="LCSC">C720075</field>
+        <field name="LCSC">C70064</field>
       </fields>
       <libsource lib="hellen-one-common" part="Fuse-Pad-Pad" description="12H1500D"/>
-      <property name="LCSC" value="C720075"/>
+      <property name="LCSC" value="C70064"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="alphax_2ch.kicad_sch"/>
       <property name="ki_description" value="12H1500D"/>
@@ -547,10 +547,10 @@
       <value>nSMD005</value>
       <footprint>hellen-one-common:PAD-1206-PAD</footprint>
       <fields>
-        <field name="LCSC">C720075</field>
+        <field name="LCSC">C70064</field>
       </fields>
       <libsource lib="hellen-one-common" part="Fuse-Pad-Pad" description="12H1500D"/>
-      <property name="LCSC" value="C720075"/>
+      <property name="LCSC" value="C70064"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="alphax_2ch.kicad_sch"/>
       <property name="ki_description" value="12H1500D"/>
@@ -561,10 +561,10 @@
       <value>nSMD005</value>
       <footprint>hellen-one-common:PAD-1206-PAD</footprint>
       <fields>
-        <field name="LCSC">C720075</field>
+        <field name="LCSC">C70064</field>
       </fields>
       <libsource lib="hellen-one-common" part="Fuse-Pad-Pad" description="12H1500D"/>
-      <property name="LCSC" value="C720075"/>
+      <property name="LCSC" value="C70064"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="alphax_2ch.kicad_sch"/>
       <property name="ki_description" value="12H1500D"/>
