@@ -6,7 +6,7 @@
 
   (title_block
     (title "AlphaECU 2chan powered by rusEFI")
-    (date "2022-12-11")
+    (date "2023-06-10")
     (rev "F")
     (company "rusEFI")
     (comment 7 "http://rusefi.com/s/alphax2ch")
@@ -10559,7 +10559,7 @@
     (property "Datasheet" "~" (at 90.17 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSV" "C239457" (at 90.17 147.32 0)
+    (property "LCSC" "C239457" (at 90.17 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 526d62e4-e424-476c-8f46-0bf96b6f21d8))

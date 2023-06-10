@@ -49,4 +49,4 @@ U1001,
 #"U755, U756","WAS3157B-6","SOT-363","C213161"
 
 #include hellen-one/board_id/generated/board_id_alpha2ch-f.csv
-#include bom_pullups_alphax_2ch-e.csv
+#include bom_pullups_alphax_2ch-f.csv
