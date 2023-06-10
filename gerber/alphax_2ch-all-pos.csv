@@ -67,7 +67,7 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "J2","Cortex_Debug","PinHeader_2x05_P1.27mm_Vertical_SMD",53.598607,5.000000,90.000000,top
 "J5","Conn_01x05_Male","Molex_SPOX_5267-05A_1x05_P2.50mm_Vertical",23.500000,13.900000,0.000000,top
 "J6","USB_C_Receptacle_USB2.0","USB_C_Receptacle_XKB_U262-16XN-4BVC11",26.800000,3.915000,0.000000,top
-"M1","Module-power_12and5V-0.1","power_12and5V",12.474999,71.925002,-90.000000,top
+"M1","Module-power_12and5V-0.2","power_12and5V",12.474999,71.925002,-90.000000,top
 "M2","Module-mega-mcu144-0.5","mega-mcu144",80.475002,55.075000,180.000000,top
 "M3","Module-vr-discrete-0.4","vr-discrete",35.025000,73.475000,-90.000000,top
 "M4","Module-lin-0.1","lin",58.168366,14.837500,-90.000000,top

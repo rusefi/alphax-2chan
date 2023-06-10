@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\Work\rusefi\github\alphax-2chan\alphax_2ch.kicad_sch</source>
-    <date>6/10/2023 11:09:16 PM</date>
+    <date>6/10/2023 11:22:11 PM</date>
     <tool>Eeschema 7.0.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -730,14 +730,14 @@
       <tstamps>6965f79f-40b9-4eae-a385-ccc0f4c57215</tstamps>
     </comp>
     <comp ref="M1">
-      <value>Module-power_12and5V-0.1</value>
-      <footprint>hellen-one-power_12and5V-0.1:power_12and5V</footprint>
-      <libsource lib="power_12and5V-0.1" part="Module-power_12and5V-0.1" description="Hellen-One Power_12and5V Module"/>
+      <value>Module-power_12and5V-0.2</value>
+      <footprint>hellen-one-power_12and5V-0.2:power_12and5V</footprint>
+      <libsource lib="power_12and5V-0.2" part="Module-power_12and5V-0.2" description="Hellen-One Power_12and5V Module"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="alphax_2ch.kicad_sch"/>
       <property name="ki_description" value="Hellen-One Power_12and5V Module"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>99dee827-fc6f-4c80-81fd-e871a63ec80c</tstamps>
+      <tstamps>8042cf8b-fd4a-48ad-8fae-9480ee3ea288</tstamps>
     </comp>
     <comp ref="M2">
       <value>Module-mega-mcu144-0.5</value>
@@ -3238,12 +3238,12 @@
         <pin num="W13" name="CANL" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="power_12and5V-0.1" part="Module-power_12and5V-0.1">
+    <libpart lib="power_12and5V-0.2" part="Module-power_12and5V-0.2">
       <description>Hellen-One Power_12and5V Module</description>
       <fields>
         <field name="Reference">M</field>
-        <field name="Value">Module-power_12and5V-0.1</field>
-        <field name="Footprint">hellen-one-power_12and5V-0.1:power_12and5V</field>
+        <field name="Value">Module-power_12and5V-0.2</field>
+        <field name="Footprint">hellen-one-power_12and5V-0.2:power_12and5V</field>
       </fields>
       <pins>
         <pin num="E1" name="VBAT" type="passive"/>
@@ -3313,8 +3313,8 @@
     <library logical="mega-mcu144-0.5">
       <uri>C:\Work\rusefi\github\alphax-2chan/hellen-one/modules/mega-mcu144/0.5/mega-mcu144.kicad_sym</uri>
     </library>
-    <library logical="power_12and5V-0.1">
-      <uri>C:\Work\rusefi\github\alphax-2chan/hellen-one/modules/power_12and5V/0.1/power_12and5V.kicad_sym</uri>
+    <library logical="power_12and5V-0.2">
+      <uri>C:\Work\rusefi\github\alphax-2chan/hellen-one/modules/power_12and5V/0.2/power_12and5V.kicad_sym</uri>
     </library>
     <library logical="vr-discrete-0.4">
       <uri>C:\Work\rusefi\github\alphax-2chan/hellen-one/modules/vr-discrete/0.4/vr-discrete.kicad_sym</uri>

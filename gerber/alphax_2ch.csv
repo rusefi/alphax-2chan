@@ -58,7 +58,7 @@
 "USB_C_Receptacle_USB2.0","J6","Connector_USB:USB_C_Receptacle_XKB_U262-16XN-4BVC11","C2927038"
 "Pad","J7","hellen-one-common:PAD-TH",""
 "Pad","J8","hellen-one-common:PAD-TH",""
-"Module-power_12and5V-0.1","M1","hellen-one-power_12and5V-0.1:power_12and5V",""
+"Module-power_12and5V-0.2","M1","hellen-one-power_12and5V-0.2:power_12and5V",""
 "Module-mega-mcu144-0.5","M2","hellen-one-mega-mcu144-0.5:mega-mcu144",""
 "Module-vr-discrete-0.4","M3","hellen-one-vr-discrete-0.4:vr-discrete",""
 "Module-lin-0.1","M4","hellen-one-lin-0.1:lin",""
