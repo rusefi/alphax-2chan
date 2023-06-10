@@ -12,6 +12,9 @@ U105,"STM32F407ZGT7","LQFP144","C19156"
 U170,
 U190,
 
+# second CAN channel is a bit of an Easter egg, do not populate by default
+U430,
+
 # 20MHz crystal
 Y102,"TXM20M0002503LFBEO00T","SMD5032-2P","C362485"
 
