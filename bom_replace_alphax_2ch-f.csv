@@ -8,9 +8,8 @@ R131,
 # STM32 whatever is cheapest would go, right?
 U105,"STM32F407ZGT7","LQFP144","C19156"
 
-# Alpha2Ch: We don't use SENS1-SENS4 and AUX1-AUX4, so we don't need these OpAmps
+# Alpha2Ch: We don't use SENS1-SENS4, so we don't need these OpAmp
 U170,
-U190,
 
 # second CAN channel is a bit of an Easter egg, do not populate by default
 U430,
@@ -48,7 +47,7 @@ Q11,"VND10N06TR-E","DPAK","C2149912"
 Q20,"VND10N06TR-E","DPAK","C2149912"
 
 # no software for accelerometer
-U1001,
+U106,
 
 # analog switches for VR-discrete
 #"U755, U756","WAS3157B-6","SOT-363","C213161"
