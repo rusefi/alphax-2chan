@@ -9152,9 +9152,9 @@
     (pad "24" thru_hole oval locked (at 25.5 -8 270) (size 2.8 2.3) (drill 1.5) (layers "*.Cu" "*.Mask")
       (net 79 "/C8") (pinfunction "C8") (pintype "passive") (solder_mask_margin 0.05) (tstamp b0fd0b5b-46ee-4d69-ae35-8edd52f15a75))
     (model "${KIPRJMOD}/33311-24AW-2.STEP"
-      (offset (xyz 0 0 0))
+      (offset (xyz 113 116.6 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 180))
     )
   )
 
