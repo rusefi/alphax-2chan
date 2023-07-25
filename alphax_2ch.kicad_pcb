@@ -7191,7 +7191,7 @@
         (effects (font (size 0.800001 0.800001) (thickness 0.17)) (justify left bottom))
       (tstamp 77f536a4-4a14-441c-b25d-6c94fd7e5c59)
     )
-    (fp_text value "LED-GREEN-0603" (at -2.876603 2.831071 -180 unlocked) (layer "F.SilkS") hide
+    (fp_text value "GREEN" (at -2.876603 2.831071 -180 unlocked) (layer "F.SilkS") hide
         (effects (font (size 0.800001 0.800001) (thickness 0.17)) (justify left bottom))
       (tstamp 827377c4-b50d-4bf3-8ce0-a5283df8a360)
     )

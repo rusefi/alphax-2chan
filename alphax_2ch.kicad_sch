@@ -5830,7 +5830,6 @@
     )
   )
 
-
   (junction (at 212.09 92.71) (diameter 0) (color 0 0 0 0)
     (uuid 0202e56d-0527-4732-83ab-a28fdbaaf456)
   )
@@ -10402,7 +10401,7 @@
     (property "Reference" "D20" (at 127 288.9058 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "LED-GREEN-0603" (at 127 291.2045 0)
+    (property "Value" "GREEN" (at 127 291.2045 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "hellen-one-common:LED-0603" (at 125.73 303.53 0)
@@ -12831,7 +12830,7 @@
     (property "Datasheet" "" (at 105.41 312.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 713fa491-d703-4d3f-a94a-a935b8606eb0))
+    (pin "1" (uuid 5ee14f49-91cc-447d-a9c5-453b9f2ba7df))
     (instances
       (project "alphax_2ch"
         (path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
