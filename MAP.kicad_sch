@@ -273,7 +273,7 @@
     (property "Reference" "U3" (at 142.24 78.74 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Value" "MPXH6400A" (at 149.86 81.28 0)
+    (property "Value" "MPXHZ6400AC6T1" (at 149.86 81.28 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
     (property "Footprint" "hellen-one-common:MPXH6400A-SSOP8" (at 146.05 85.09 0)

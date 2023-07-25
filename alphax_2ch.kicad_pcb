@@ -7191,7 +7191,7 @@
         (effects (font (size 0.800001 0.800001) (thickness 0.17)) (justify left bottom))
       (tstamp 77f536a4-4a14-441c-b25d-6c94fd7e5c59)
     )
-    (fp_text value "GREEN" (at -2.876603 2.831071 -180 unlocked) (layer "F.SilkS") hide
+    (fp_text value "LED-GREEN-0603" (at -2.876603 2.831071 -180 unlocked) (layer "F.SilkS") hide
         (effects (font (size 0.800001 0.800001) (thickness 0.17)) (justify left bottom))
       (tstamp 827377c4-b50d-4bf3-8ce0-a5283df8a360)
     )
@@ -8212,7 +8212,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp bc037be6-6f1c-43ce-8a08-af08101a8503)
     )
-    (fp_text value "MPXH6400A" (at 6.565 4.635) (layer "F.Fab") hide
+    (fp_text value "MPXHZ6400AC6T1" (at 6.565 4.635) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1b799688-d61c-4b11-b250-2d92d645b6ee)
     )
@@ -9035,6 +9035,7 @@
   (footprint "alphax-2ch:33311-24AW-2" locked (layer "F.Cu")
     (tstamp eb24be55-7b92-4767-b796-2b9ec376e9f3)
     (at 51.85 78.101)
+    (property "LCSC" "C5349068")
     (property "Sheetfile" "alphax_2ch.kicad_sch")
     (property "Sheetname" "")
     (path "/795890df-a6bd-4dfa-9f2a-3a4a16e2521d")
@@ -9043,7 +9044,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp eef51809-2cfc-4570-b9e1-d2e81aec77b9)
     )
-    (fp_text value "33311-24AW-2" (at 30.2 -14.2 unlocked) (layer "F.Fab")
+    (fp_text value "HCCPHPE24BKA90F" (at 30.2 -14.2 unlocked) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 928263d7-12da-4b32-bcad-a9de644f63f5)
     )
