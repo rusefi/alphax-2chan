@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/runner/work/alphax-2chan/alphax-2chan/alphax_2ch.kicad_sch</source>
-    <date>Tue Jul 25 20:45:17 2023</date>
+    <date>Tue Jul 25 21:17:28 2023</date>
     <tool>Eeschema 7.0.6-7.0.6~ubuntu22.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -821,10 +821,14 @@
       <tstamps>a2326ebc-6cfa-4f20-8be5-c340d5e4c015</tstamps>
     </comp>
     <comp ref="P1">
-      <value>33311-24AW-2</value>
+      <value>HCCPHPE24BKA90F</value>
       <footprint>alphax-2ch:33311-24AW-2</footprint>
       <datasheet>DOCUMENTATION</datasheet>
+      <fields>
+        <field name="LCSC">C5349068</field>
+      </fields>
       <libsource lib="33311-24AW-2" part="33311-24AW-2" description=""/>
+      <property name="LCSC" value="C5349068"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="alphax_2ch.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1677,7 +1681,7 @@
       <tstamps>d1e99562-e6a6-4a55-97b6-342c86e3a62a</tstamps>
     </comp>
     <comp ref="U1">
-      <value>MPXH6400A</value>
+      <value>MPXHZ6400AC6T1</value>
       <footprint>hellen-one-common:MPXH6400A-SSOP8</footprint>
       <fields>
         <field name="LCSC">C511770</field>
