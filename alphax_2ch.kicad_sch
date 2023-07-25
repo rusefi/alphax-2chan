@@ -10401,7 +10401,7 @@
     (property "Reference" "D20" (at 127 288.9058 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "GREEN" (at 127 291.2045 0)
+    (property "Value" "LED-GREEN-0603" (at 127 291.2045 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "hellen-one-common:LED-0603" (at 125.73 303.53 0)
